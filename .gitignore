@@ -1,0 +1,6 @@
+.idea/
+env/
+output/
+output2/
+**.7z**
+logfile.log
