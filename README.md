@@ -3,11 +3,11 @@ A "simple" project from early-2024 to crawl through my discord data dump, retrie
 
 Is it perfect? No. Did it work? Pretty much yeah.
 
-# Required packages
+## Required packages
 - urllib3
 - requests
 
-# Things that need fixing
+## Things that need fixing
 - It doesn't handle error codes well
   - Error codes are displayed in the console, but it doesn't attempt to re-download the files
   - There's no way to distinguish between if a file is actually unavailable or if you've just got unlucky/connection issues
@@ -16,7 +16,7 @@ Is it perfect? No. Did it work? Pretty much yeah.
   - Still using an old Firefox user agent
 - Ideally there would be a slightly nicer user interface
 
-# Future ideas for one day
+## Future ideas for one day
 - A nicer user interface (Tk/Qt based)
 - Better search/filter for finding urls within messages
   - When an attachment is sent, it's put into a separate field to the main message
